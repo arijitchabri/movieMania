@@ -19,7 +19,7 @@ To get started with MovieMania, follow these steps:
 
 1. Clone the repository to your local machine:
 
-`git clone https://github.com/<your-username>/movieMania.git`
+`git clone https://github.com/arijitchabri/movieMania.git`
 
 
 2. Install the required dependencies:
