@@ -29,12 +29,12 @@ To get started with MovieMania, follow these steps:
 
 3. Create a new database for the project:
 
-python manage.py migrate
+`python manage.py migrate`
 
 4. Load the initial data into the database:
 
-python manage.py loaddata channels.json
-python manage.py loaddata movies.json
+`python manage.py loaddata channels.json`
+`python manage.py loaddata movies.json`
 
 ### Running
 
@@ -62,7 +62,7 @@ If you would like to contribute to MovieMania, please follow these steps:
 
 ## Authors
 
-- John Doe - Initial work
+- Arijit Chabri - Initial work
 
 ## License
 
