@@ -1,0 +1,1 @@
+[{"model": "movies.movie", "pk": 1, "fields": {"name": "Familyman", "duration": 450, "channel": 1, "image": "familyman.jpeg"}}, {"model": "movies.movie", "pk": 2, "fields": {"name": "God father", "duration": 175, "channel": 1, "image": "godfather.jpeg"}}]
