@@ -19,20 +19,30 @@ To get started with MovieMania, follow these steps:
 
 1. Clone the repository to your local machine:
 
-`git clone https://github.com/arijitchabri/movieMania.git`
+```
+git clone https://github.com/arijitchabri/movieMania.git
+```
 
 
 2. Install the required dependencies:
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 
 ### Running
 
 To start the development server, run the following command:
 
-windows : `python manage.py runserver`
-linux : `python3 manage.py runserver`
+windows : 
+```
+python manage.py runserver
+```
+linux : 
+```
+python3 manage.py runserver
+```
 
 The server should now be running at `http://127.0.0.1:8000/`. You can access the MovieMania web application by navigating to this URL in your web browser.
 
@@ -47,9 +57,19 @@ The API endpoints for the movies and channels can be accessed at `/api/movies/` 
 If you would like to contribute to MovieMania, please follow these steps:
 
 1. Fork the repository
-2. Create a new branch for your feature or bugfix: `git checkout -b my-new-feature`
-3. Make your changes and commit them: `git commit -am 'Add some feature'`
-4. Push to your branch: `git push origin my-new-feature`
+2. Create a new branch for your feature or bugfix: 
+```
+git checkout -b my-new-feature
+```
+3. Make your changes and commit them: 
+```
+git commit -am "Add some feature"
+```
+
+4. Push to your branch: 
+```
+git push origin my-new-feature
+```
 5. Submit a pull request
 
 ## Authors
