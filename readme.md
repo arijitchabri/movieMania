@@ -27,20 +27,12 @@ To get started with MovieMania, follow these steps:
 `pip install -r requirements.txt`
 
 
-3. Create a new database for the project:
-
-`python manage.py migrate`
-
-4. Load the initial data into the database:
-
-`python manage.py loaddata channels.json`
-`python manage.py loaddata movies.json`
-
 ### Running
 
 To start the development server, run the following command:
 
-
+windows : `python manage.py runserver`
+linux : `python3 manage.py runserver`
 
 The server should now be running at `http://127.0.0.1:8000/`. You can access the MovieMania web application by navigating to this URL in your web browser.
 
