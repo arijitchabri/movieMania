@@ -1,11 +1,13 @@
 from django.urls import path, include
 from rest_framework import routers
-from .views import ChannelViewSet, MovieViewSet
+from .views import ChannelViewSet, MovieViewSet, movieFilter
 
 router = routers.DefaultRouter()
-router.register(r'channels', ChannelViewSet)
 router.register(r'movies', MovieViewSet)
+router.register(r'channels', ChannelViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
+    path('channel/<str:channel>/', movieFilter, name='Movie filter'),
+
 ]
