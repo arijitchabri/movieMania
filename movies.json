@@ -1,1 +1,253 @@
-[{"model": "movies.movie", "pk": 1, "fields": {"name": "Familyman", "duration": 450, "channel": 1, "image": "familyman.jpeg"}}, {"model": "movies.movie", "pk": 2, "fields": {"name": "God father", "duration": 175, "channel": 1, "image": "godfather.jpeg"}}]
+[
+    {
+      "model": "movies.movie",
+      "pk": 1,
+      "fields": {
+        "name": "The Sopranos",
+        "duration": 60,
+        "channel": 1,
+        "image": "movie_images/movie.png"
+      }
+    },
+    {
+      "model": "movies.movie",
+      "pk": 2,
+      "fields": {
+        "name": "Game of Thrones",
+        "duration": 60,
+        "channel": 1,
+        "image": "movie_images/movie.png"
+      }
+    },
+    {
+      "model": "movies.movie",
+      "pk": 3,
+      "fields": {
+        "name": "The Wire",
+        "duration": 60,
+        "channel": 1,
+        "image": "movie_images/movie.png"
+      }
+    },
+    {
+      "model": "movies.movie",
+      "pk": 4,
+      "fields": {
+        "name": "Stranger Things",
+        "duration": 50,
+        "channel": 2,
+        "image": "movie_images/movie.png"
+      }
+    },
+    {
+      "model": "movies.movie",
+      "pk": 5,
+      "fields": {
+        "name": "Narcos",
+        "duration": 60,
+        "channel": 2,
+        "image": "movie_images/movie.png"
+      }
+    },
+    {
+      "model": "movies.movie",
+      "pk": 6,
+      "fields": {
+        "name": "Breaking Bad",
+        "duration": 60,
+        "channel": 2,
+        "image": "movie_images/movie.png"
+      }
+    },
+    {
+      "model": "movies.movie",
+      "pk": 7,
+      "fields": {
+        "name": "The Marvelous Mrs. Maisel",
+        "duration": 45,
+        "channel": 3,
+        "image": "movie_images/movie.png"
+      }
+    },
+    {
+      "model": "movies.movie",
+      "pk": 8,
+      "fields": {
+        "name": "The Boys",
+        "duration": 60,
+        "channel": 3,
+        "image": "movie_images/movie.png"
+      }
+    },
+    {
+      "model": "movies.movie",
+      "pk": 9,
+      "fields": {
+        "name": "Jack Ryan",
+        "duration": 60,
+        "channel": 3,
+        "image": "movie_images/movie.png"
+      }
+    },
+    {
+      "model": "movies.movie",
+      "pk": 10,
+      "fields": {
+        "name": "The Mandalorian",
+        "duration": 40,
+        "channel": 4,
+        "image": "movie_images/movie.png"
+      }
+    },
+    {
+      "model": "movies.movie",
+      "pk": 11,
+      "fields": {
+        "name": "WandaVision",
+        "duration": 30,
+        "channel": 4,
+        "image": "movie_images/movie.png"
+      }
+    },
+    {
+      "model": "movies.movie",
+      "pk": 12,
+      "fields": {
+        "name": "The Falcon and The Winter Soldier",
+        "duration": 45,
+        "channel": 4,
+        "image": "movie_images/movie.png"
+      }
+    },
+    {
+        "model": "movies.movie",
+        "pk": 13,
+        "fields": {
+          "name": "The Handmaid's Tale",
+          "duration": 60,
+          "channel": 5,
+          "image": "movie_images/movie.png"
+        }
+      },
+      {
+        "model": "movies.movie",
+        "pk": 14,
+        "fields": {
+          "name": "Little Fires Everywhere",
+          "duration": 50,
+          "channel": 5,
+          "image": "movie_images/movie.png"
+        }
+      },
+      {
+        "model": "movies.movie",
+        "pk": 15,
+        "fields": {
+          "name": "The Mighty Ducks: Game Changers",
+          "duration": 30,
+          "channel": 5,
+          "image": "movie_images/movie.png"
+        }
+      },
+      {
+        "model": "movies.movie",
+        "pk": 16,
+        "fields": {
+          "name": "Bosch",
+          "duration": 45,
+          "channel": 6,
+          "image": "movie_images/movie.png"
+        }
+      },
+      {
+        "model": "movies.movie",
+        "pk": 17,
+        "fields": {
+          "name": "The Twilight Zone",
+          "duration": 60,
+          "channel": 6,
+          "image": "movie_images/movie.png"
+        }
+      },
+      {
+        "model": "movies.movie",
+        "pk": 18,
+        "fields": {
+          "name": "Star Trek: Picard",
+          "duration": 60,
+          "channel": 6,
+          "image": "movie_images/movie.png"
+        }
+      },
+      {
+        "model": "movies.movie",
+        "pk": 19,
+        "fields": {
+          "name": "Homeland",
+          "duration": 60,
+          "channel": 7,
+          "image": "movie_images/movie.png"
+        }
+      },
+      {
+        "model": "movies.movie",
+        "pk": 20,
+        "fields": {
+          "name": "Billions",
+          "duration": 60,
+          "channel": 7,
+          "image": "movie_images/movie.png"
+        }
+      },
+      {
+        "model": "movies.movie",
+        "pk": 21,
+        "fields": {
+          "name": "Dexter",
+          "duration": 60,
+          "channel": 7,
+          "image": "movie_images/movie.png"
+        }
+      },
+      {
+        "model": "movies.movie",
+        "pk": 22,
+        "fields": {
+          "name": "Yellowstone",
+          "duration": 60,
+          "channel": 8,
+          "image": "movie_images/movie.png"
+        }
+      },
+      {
+        "model": "movies.movie",
+        "pk": 23,
+        "fields": {
+          "name": "The Office",
+          "duration": 30,
+          "channel": 8,
+          "image": "movie_images/movie.png"
+        }
+      },
+      {
+        "model": "movies.movie",
+        "pk": 24,
+        "fields": {
+          "name": "Saved by the Bell",
+          "duration": 30,
+          "channel": 8,
+          "image": "movie_images/movie.png"
+        }
+      },{    "model": "movies.movie",    "pk": 25,    "fields": {      "name": "The Office",      "duration": 144,      "channel": 8,      "image": "movie_images/movie.png"    }  },
+        {    "model": "movies.movie",    "pk": 26,    "fields": {      "name": "Yellowstone",      "duration": 192,      "channel": 8,      "image": "movie_images/movie.png"    }  },  
+        {    "model": "movies.movie",    "pk": 27,    "fields": {      "name": "Brave New World",      "duration": 120,      "channel": 8,      "image": "movie_images/movie.png"    }  },  
+        {    "model": "movies.movie",    "pk": 28,    "fields": {      "name": "The Marvelous Mrs. Maisel",      "duration": 144,      "channel": 9,      "image": "movie_images/movie.png"    }  },  
+        {    "model": "movies.movie",    "pk": 29,    "fields": {      "name": "Ted Lasso",      "duration": 192,      "channel": 9,      "image": "movie_images/movie.png"    }  },  
+        {    "model": "movies.movie",    "pk": 30,    "fields": {      "name": "For All Mankind",      "duration": 120,      "channel": 9,      "image": "movie_images/movie.png"    }  },  
+        {    "model": "movies.movie",    "pk": 31,    "fields": {      "name": "The Morning Show",      "duration": 144,      "channel": 9,      "image": "movie_images/movie.png"    }  },  
+        {    "model": "movies.movie",    "pk": 32,    "fields": {      "name": "Servant",      "duration": 192,      "channel": 9,      "image": "movie_images/movie.png"    }  },  
+        {    "model": "movies.movie",    "pk": 33,    "fields": {      "name": "Central Park",      "duration": 120,      "channel": 10,      "image": "movie_images/movie.png"    }  },  
+        {    "model": "movies.movie",    "pk": 34,    "fields": {      "name": "See",      "duration": 144,      "channel": 10,      "image": "movie_images/movie.png"    }  },  
+        {    "model": "movies.movie",    "pk": 35,    "fields": {      "name": "Little America",      "duration": 192,      "channel": 10,      "image": "movie_images/movie.png"    }  },
+        {    "model": "movies.movie",    "pk": 36,    "fields": {      "name": "Dickinson",      "duration": 120,      "channel": 10,      "image": "movie_images/movie.png"    }  }]
+  
